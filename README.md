@@ -6,9 +6,11 @@ A simple Ansible role for getting the AWS ec2 instances IP's dynamically using t
 
 It will install the following:-
 ------------
-ansible
-boto
-boto3
+  
+  ansible
+  boto
+  boto3
+  
 Role Name
 =========
 
@@ -66,12 +68,16 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-  ---
-  - hosts: localhost
-      roles:
-         - /path/aws_ec2_dynamic_inventory
-  ...       
+---
+- hosts: localhost
+  
+  gather_facts: no
 
+  roles:
+
+    - /path/aws_ec2_dynamic_inventory
+
+...
 License
 -------
 
