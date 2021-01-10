@@ -57,7 +57,7 @@ A description for role variables goes here.
 |                                              |                               |
 | `path_to_your_ansible_cfg_file`              | vars/main.yml                 | Inform of the ansible config file
 |                                              |                               |
-|                                              |                               |
+
 Dependencies
 ------------
 
